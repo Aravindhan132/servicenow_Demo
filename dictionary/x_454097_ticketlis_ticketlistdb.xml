@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TicketListDB" max_length="40" name="x_454097_ticketlis_ticketlistdb" type="collection">
+        <element choice="1" default="Empty" label="Assigne_Name" max_length="40" name="assigne_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aravindhan" sequence="1" value="Aravindhan"/>
+                <element inactive_on_update="false" label="Rajesh" sequence="2" value="Rajesh"/>
+                <element inactive_on_update="false" label="Rathis" sequence="3" value="Rathis"/>
+                <element inactive_on_update="false" label="Suresh" sequence="4" value="Suresh"/>
+            </choice>
+        </element>
+        <element default="Number" label="Ticket_Number" max_length="100" name="ticket_number" type="string"/>
+        <element default="Subject" label="Ticket_Subject" max_length="1024" name="ticket_subject" type="string"/>
+    </element>
+</database>
